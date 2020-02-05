@@ -18,7 +18,8 @@ const main = function(args) {
     fibo,
     isEven,
     factorial,
-    percent
+    percent,
+    isOdd
   };
   console.log(calcTools[args[0]](+args[1], +args[2]));
 };
