@@ -1,11 +1,12 @@
-const mul = require('./src/multiply');
 const div = require('./src/divide');
+const multiply = require('./src/multiply');
+const isEven = require('./src/isEven');
 const add = require('./src/add');
+const subtract = require('./src/subtract');
 const fibo = require('./src/fibo');
-const sub = require('./src/subtract');
 
 const main = function(args) {
-  const calcTools = { add, mul, div, sub, fibo };
+  const calcTools = { add, multiply, div, subtract, fibo, isEven };
   console.log(calcTools[args[0]](+args[1], +args[2]));
 };
 
