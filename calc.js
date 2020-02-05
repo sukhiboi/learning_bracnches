@@ -1,1 +1,3 @@
-console.log('will calculate shortly');
+const multiply = require('./src/multiply');
+
+console.log(multiply(2, 3));
