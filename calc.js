@@ -21,6 +21,7 @@ const main = function(args) {
     percent,
     isOdd
   };
+
   console.log(calcTools[args[0]](+args[1], +args[2]));
 };
 
