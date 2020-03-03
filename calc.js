@@ -15,3 +15,5 @@ const main = function(args) {
 };
 
 main(process.argv.slice(2));
+console.log(multiply(2, 3), subtract(5, 2));
+console.log(factorial(5));
